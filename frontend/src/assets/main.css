@@ -1,0 +1,72 @@
+@import './base.css';
+
+/* 复用 base.css 中定义的紫色主题变量 */
+:root {
+  --primary-color: #7b2cbf; /* 主紫色 */
+  --primary-light: #9d4edd; /* 浅紫色 */
+  --primary-dark: #5a189a; /* 深紫色 */
+  --primary-lightest: #f3e8ff; /* 最浅紫色 */
+  --primary-shadow: rgba(123, 44, 191, 0.3); /* 紫色阴影 */
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+/* 链接样式改为紫色主题，替换原绿色 */
+a,
+.green {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 0.4s ease;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+/* 链接 hover 效果优化 */
+@media (hover: hover) {
+  a:hover {
+    background-color: var(--primary-lightest);
+    color: var(--primary-dark);
+  }
+}
+
+/* 大屏布局调整 */
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+    gap: 2rem; /* 增加列间距，提升布局呼吸感 */
+  }
+}
+
+/* 全局通用样式补充 */
+/* 按钮通用样式（与组件库按钮风格统一） */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* 消除默认焦点样式，替换为紫色主题焦点 */
+:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
+}
+
+/* 响应式适配补充：小屏设备优化 */
+@media (max-width: 768px) {
+  #app {
+    padding: 1rem;
+  }
+}
