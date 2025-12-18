@@ -479,22 +479,26 @@ const createNewHistory = (roomId) => {
 .history-item {
   padding: 12px;
   margin-bottom: 8px;
-  background: #fafafa;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
   border-radius: 8px;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(252, 182, 159, 0.2);
 }
 
 .history-item:hover {
-  background: var(--primary-lightest);
-  border-color: var(--primary-light);
+  background: linear-gradient(135deg, #fdeb71 0%, #f8d800 100%);
+  border-color: transparent;
+  transform: translateX(4px);
+  box-shadow: 0 4px 8px rgba(248, 216, 0, 0.3);
 }
 
 .history-item.active {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
   color: white;
-  border-color: var(--primary-color);
+  border-color: transparent;
+  box-shadow: 0 4px 12px rgba(250, 112, 154, 0.4);
 }
 
 .history-title {

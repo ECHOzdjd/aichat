@@ -53,12 +53,14 @@ defineProps({
 }
 
 .user-message .bubble {
-  background-color: #1890ff;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 }
 
 .ai-message .bubble {
-  background-color: #f5f5f5;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
   color: #333;
+  box-shadow: 0 2px 8px rgba(252, 182, 159, 0.3);
 }
 </style>

@@ -88,9 +88,9 @@ html, body {
 .content {
   width: 90%; /* 占满90%宽度，减少左右留白 */
   max-width: 400px; /* 最大宽度限制 */
-  background-color: #ffffff;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 16px; /* 圆角 */
-  box-shadow: 0 8px 24px rgba(123, 44, 191, 0.15); /* 柔和阴影 */
+  box-shadow: 0 12px 32px rgba(102, 126, 234, 0.4); /* 更明显的阴影 */
   padding: 36px 24px; /* 紧凑内边距 */
   text-align: center;
 }
@@ -99,15 +99,16 @@ html, body {
 .title {
   font-size: 28px;
   font-weight: 700;
-  color: #5a189a; /* 深紫色标题 */
+  color: #ffffff; /* 白色标题 */
   margin-bottom: 12px; /* 标题下方紧凑间距 */
   line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* 副标题样式 */
 .subtitle {
   font-size: 15px;
-  color: #666666;
+  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 24px; /* 副标题与按钮间距 */
   line-height: 1.4;
 }
@@ -119,16 +120,16 @@ html, body {
   font-size: 16px;
   font-weight: 600;
   border-radius: 8px;
-  background-color: #7b2cbf !important; /* 主紫色按钮 */
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%) !important; /* 粉红渐变按钮 */
   border: none !important;
   color: #ffffff !important;
   transition: all 0.2s ease;
 }
 
 .start-button:hover:not(:disabled) {
-  background-color: #5a189a !important; /* 深紫色hover效果 */
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(123, 44, 191, 0.3);
+  background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%) !important; /* 反向渐变hover效果 */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(245, 87, 108, 0.5);
 }
 
 .start-button:active {
