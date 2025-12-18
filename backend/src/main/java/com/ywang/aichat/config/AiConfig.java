@@ -1,4 +1,4 @@
-package com.zychen.aichat.config;
+package com.ywang.aichat.config;
 
 import com.volcengine.ark.runtime.service.ArkService;
 import okhttp3.ConnectionPool;

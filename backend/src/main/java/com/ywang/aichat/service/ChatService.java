@@ -1,6 +1,6 @@
-package com.zychen.aichat.service;
+package com.ywang.aichat.service;
 
-import com.zychen.aichat.model.ChatRoom;
+import com.ywang.aichat.model.ChatRoom;
 
 import java.util.List;
 

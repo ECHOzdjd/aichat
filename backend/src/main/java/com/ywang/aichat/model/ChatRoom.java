@@ -1,4 +1,4 @@
-package com.zychen.aichat.model;
+package com.ywang.aichat.model;
 
 import com.volcengine.ark.runtime.model.completion.chat.ChatMessage;
 import lombok.Data;

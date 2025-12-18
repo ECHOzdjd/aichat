@@ -1,8 +1,8 @@
-package com.zychen.aichat.controller;
+package com.ywang.aichat.controller;
 
 
-import com.zychen.aichat.model.ChatRoom;
-import com.zychen.aichat.service.ChatService;
+import com.ywang.aichat.model.ChatRoom;
+import com.ywang.aichat.service.ChatService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;

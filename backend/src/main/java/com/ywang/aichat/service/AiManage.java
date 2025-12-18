@@ -1,4 +1,4 @@
-package com.zychen.aichat.service;
+package com.ywang.aichat.service;
 
 import com.volcengine.ark.runtime.model.bot.completion.chat.BotChatCompletionRequest;
 import com.volcengine.ark.runtime.model.bot.completion.chat.BotChatCompletionResult;

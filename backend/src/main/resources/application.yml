@@ -12,7 +12,7 @@ knife4j:
         group-name: 默认分组
         api-rule: package
         api-rule-resources:
-          - com.zychen.aichat.controller
+          - com.ywang.aichat.controller
 
 ai:
   apiKey: da1d4be6-890d-49be-ac4a-ac6b9a414a08

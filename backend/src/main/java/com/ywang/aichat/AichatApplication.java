@@ -1,4 +1,4 @@
-package com.zychen.aichat;
+package com.ywang.aichat;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,10 +1,10 @@
-package com.zychen.aichat;
+package com.ywang.aichat;
 import com.volcengine.ark.runtime.model.bot.completion.chat.BotChatCompletionRequest;
 import com.volcengine.ark.runtime.model.bot.completion.chat.BotChatCompletionResult;
 import com.volcengine.ark.runtime.model.completion.chat.ChatMessage;
 import com.volcengine.ark.runtime.model.completion.chat.ChatMessageRole;
 import com.volcengine.ark.runtime.service.ArkService;
-import com.zychen.aichat.service.AiManage;
+import com.ywang.aichat.service.AiManage;
 import okhttp3.ConnectionPool;
 import okhttp3.Dispatcher;
 import org.junit.jupiter.api.BeforeEach;
